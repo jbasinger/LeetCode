@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCode
+namespace LeetCode._00002_Add_Two_Numbers
 {
-    public class AddTwoNumbers_Problem
+    public class Solution
     {
         public class ListNode
         {

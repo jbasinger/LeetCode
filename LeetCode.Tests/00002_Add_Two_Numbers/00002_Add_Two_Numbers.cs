@@ -1,14 +1,15 @@
-﻿using NUnit.Framework;
+﻿using LeetCode._00002_Add_Two_Numbers;
+using NUnit.Framework;
 using Shouldly;
 
-namespace LeetCode.Tests
+namespace LeetCode.Tests._00002_Add_Two_Numbers
 {
-    public class AddTwoNumbers_Problem_Test
+    public class Tests
     {
         [Test]
         public void ShouldBuildListNodeFromIntArray()
         {
-            var sut = new AddTwoNumbers_Problem();
+            var sut = new Solution();
             
             var input = new[] {2, 4, 3};
             var node = sut.BuildList(input);
@@ -43,7 +44,7 @@ namespace LeetCode.Tests
         [Test]
         public void ShouldAddNumbers()
         {
-            var sut = new AddTwoNumbers_Problem();
+            var sut = new Solution();
 
             var l1 = sut.BuildList(new[] {2, 4, 3});
             var l2 = sut.BuildList(new[] {5,6,4});

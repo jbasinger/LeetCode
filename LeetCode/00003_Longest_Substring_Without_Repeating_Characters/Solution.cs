@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace LeetCode
+namespace LeetCode._00003_Longest_Substring_Without_Repeating_Characters
 {
-    public class LongestSubstringWithoutRepeatingCharacters_Problem
+    public class Solution
     {
         public int LengthOfLongestSubstring(string s)
         {

@@ -1,11 +1,10 @@
-﻿using System.Linq;
-using System.Security.Cryptography.X509Certificates;
+﻿using LeetCode._00003_Longest_Substring_Without_Repeating_Characters;
 using NUnit.Framework;
 using Shouldly;
 
-namespace LeetCode.Tests
+namespace LeetCode.Tests._00003_Longest_Substring_Without_Repeating_Characters
 {
-    public class LongestSubstringWithoutRepeatingCharacters_Problem_Test
+    public class Tests
     {
         /*
          * Edge cases
@@ -18,7 +17,7 @@ namespace LeetCode.Tests
          * - the string is one character
          */
         
-        private LongestSubstringWithoutRepeatingCharacters_Problem _sut = new LongestSubstringWithoutRepeatingCharacters_Problem();
+        private Solution _sut = new Solution();
         
         [Test]
         public void ShouldReturnOneIfAllTheSame()
